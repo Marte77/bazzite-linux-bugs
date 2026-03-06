@@ -1,0 +1,3 @@
+# 1 - Microphone audio was incredibly low
+I have a rode mic with a behringer umc2020 or something audio interface which doesnt have drivers for linux. so the microphone output was incredibly low for some reason, but weirdly also on the headphones microphone too. [https://nandakumar.org/blog/2022/02/umc202hd-linux.html](https://nandakumar.org/blog/2022/02/umc202hd-linux.html) i found this website where someone had similar issues, but it didnt work
+then i found someone on [reddit](https://www.reddit.com/r/Bazzite/comments/1p4cc5s/low_volume_in_mic/) with a similar issue, and someone in the comments mentioned easy effects, where i could set the gain on my microphone. although this adds lots of noise, this isnt an issue for me as my mic doesnt pick up much noise
