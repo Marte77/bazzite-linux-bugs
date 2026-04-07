@@ -5,7 +5,7 @@
 To backup KDE settings and packages installed i used this script https://gitlab.com/cscs/transfuse
 with the command `./transfuse -b $USER -p`
 
-# mouse that is configured via WebUSB is not detected/configurable
+# mouse that is configured via WebUSB is not detected/configurable by the browser. (as of writing, WebUSB is only supported on chromium browsers)
 
 this is some permissions thing wtr to udev. I found this [reddit post](https://www.reddit.com/r/linux_gaming/comments/1mc79a9/will_i_be_able_to_configure_this_mouse_on_linux/) and a reply by u/ifsixwerenine it solved the issue (cant link the reply for some reason).
 Run the following command in the terminal:
