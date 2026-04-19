@@ -8,7 +8,7 @@ then i found someone on [reddit](https://www.reddit.com/r/Bazzite/comments/1p4cc
 Usually logitech mice store dpi internally, but for some reason, it only stored 800 dpi, so i had to install sonaar, which is specifically for logitech devices, to manually set the dpi values to what i wanted.
 
 ## 3 - CS 2 audio was stuttery although gameplay was smooth
-
+⚠️⚠️ EXPLICITLY INVOKING WAYLAND AS THE VIDEO DRIVER WILL CAUSE STEAM OVERLAY TO NO LONGER WORK!! ⚠️⚠️
 `SDL_AUDIODRIVER=pulseaudio %command%` add this to the launch options. I previously tried the following to no avail:
 ```
 SDL_VIDEODRIVER=wayland STEAM_COMPAT_RUNTIME_SDL2=1
